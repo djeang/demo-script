@@ -14,7 +14,7 @@ class Script extends KBean {
 
     @JkDoc("Print greeting on console")
     public void hi() {
-        String greetings = "Hi " + name + " !";
+        String greetings = "Ola " + name + " !";
         System.out.println(greetings);
     }
 
